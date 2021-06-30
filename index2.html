@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EducAtout Mobile</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <div class="text"><i class="fas fa-cubes"></i> EducAtout</div>
+      <ul>
+        <li>
+          <a href="index.html" class=""
+            ><i class="fas fa-home"></i> Accueil
+            <span><i class=" "></i></span>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="feat_btn"
+            ><i class="fas fa-book"></i> Cours
+            <span><i class="fas fa-caret-down first"></i></span>
+          </a>
+          <ul class="feat_show">
+            <li><a href="" class="maternelle">Maternelle</a></li>
+            <li><a href="" class="7eme"> 7eme</a></li>
+            <li><a href="" class="6eme">6eme</a></li>
+            <li><a href="" class="5eme">5eme</a></li>
+            <li><a href="" class="4eme">4eme</a></li>
+            <li><a href="" class="3eme">3eme</a></li>
+            <li><a href="" class="2nd">2nd</a></li>
+            <li><a href="" class="1ere">1ere</a></li>
+            <li><a href="" class="terminale">Terminale</a></li>
+            <li><a href="" class="universite">Université</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#" class="serv_btn"
+            ><i class="fas fa-play-circle"></i> Videos
+            <span><i class="fas fa-caret-down secdond"></i></span>
+          </a>
+          <ul class="serv_show">
+            <li><a href="">Tutorial</a></li>
+            <li><a href="">Challenge</a></li>
+            <li><a href="">Humour</a></li>
+            <li><a href="">Sport</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#" class="app_btn"
+            ><i class="fas fa-igloo"></i> Applications
+            <span><i class="fas fa-caret-down"></i></span>
+          </a>
+          <ul class="app_show">
+            <li><a href="">Apk</a></li>
+            <li><a href="">Logiciel</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#" class="lang_btn"
+            ><i class="fas fa-circle-notch"></i> Langues
+            <span><i class="fas fa-caret-down"></i></span>
+          </a>
+          <ul class="lang_show">
+            <li><a href="">Francais</a></li>
+            <li><a href="">Malagasy</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <script src="jquery.js"></script>
+
+    <script>
+      $(".feat_btn").click(function () {
+        $("nav ul .feat_show").toggleClass("show");
+      });
+
+      $(".serv_btn").click(function () {
+        $("nav ul .serv_show").toggleClass("show1");
+      });
+
+      $(".app_btn").click(function () {
+        $("nav ul .app_show").toggleClass("show2");
+      });
+
+      $(".lang_btn").click(function () {
+        $("nav ul .lang_show").toggleClass("show3");
+      });
+    </script>
+
+    <script src="fontawesome/js/all.min.js"></script>
+  </body>
+</html>
